@@ -1,0 +1,1007 @@
+[
+  {
+    "sigle": "1",
+    "ligne": "1 – verte",
+    "terminus": ["Angrignon", "Honoré-Beaugrand"],
+    "stations": [
+      {
+        "Angrignon": [null, 6]
+      },
+      {
+        "Monk": [5, 5]
+      },
+      {
+        "Jolicoeur": [5, 5]
+      },
+      {
+        "Verdun": [
+          [4, 5],
+          [7, 9]
+        ]
+      },
+      {
+        "De L'Église": [
+          [
+            {
+              "sortie": "de l'Église",
+              "voiture": 4
+            },
+            {
+              "sortie": "Wellington",
+              "voiture": 9
+            }
+          ],
+          [
+            {
+              "sortie": "Wellington",
+              "voiture": 1
+            },
+            {
+              "sortie": "de l'Église",
+              "voiture": 6
+            }
+          ]
+        ]
+      },
+      {
+        "LaSalle": [6, [2, 4]]
+      },
+      {
+        "Charlevoix": [3, 7]
+      },
+      {
+        "Lionel-Groulx": [7, 2]
+      },
+      {
+        "Atwater": [
+          [2, 6],
+          [4, 8]
+        ]
+      },
+      {
+        "Guy-Concordia": [
+          [
+            {
+              "sortie": "Guy",
+              "voiture": 1
+            },
+            {
+              "sortie": "St-Mathieu",
+              "voiture": 9
+            }
+          ],
+          [
+            {
+              "sortie": "St-Mathieu",
+              "voiture": 1
+            },
+            {
+              "sortie": "Guy",
+              "voiture": 9
+            }
+          ]
+        ]
+      },
+      {
+        "Peel": [
+          [4, 5, 6, 7],
+          [3, 4, 5, 6]
+        ]
+      },
+      {
+        "McGill": [
+          [2, 6],
+          [4, 8]
+        ]
+      },
+      {
+        "Place-des-Arts": [
+          [
+            {
+              "sortie": "Jeanne-Mance et Président-Kennedy",
+              "voiture": 3
+            },
+            {
+              "sortie": "de Bleury",
+              "voiture": 9
+            }
+          ],
+          [
+            {
+              "sortie": "de Bleury",
+              "voiture": 1
+            },
+            {
+              "sortie": "Jeanne-Mance et Président-Kennedy",
+              "voiture": 7
+            }
+          ]
+        ]
+      },
+      {
+        "Saint-Laurent": [
+          [6, 8],
+          [2, 4]
+        ]
+      },
+      {
+        "Berri-UQAM": [
+          [1, 2, 3, 4, 5],
+          [3, 5, 8]
+        ]
+      },
+      {
+        "Beaudry": [
+          [2, 4],
+          [6, 8]
+        ]
+      },
+      {
+        "Papineau": [
+          [4, 6],
+          [4, 6]
+        ]
+      },
+      {
+        "Frontenac": [7, 3]
+      },
+      {
+        "Préfontaine": [7, 3]
+      },
+      {
+        "Joliette": [3, 7]
+      },
+      {
+        "Pie-IX": [
+          [4, 7],
+          [4, 5]
+        ]
+      },
+      {
+        "Viau": [2, 8]
+      },
+      {
+        "Assomption": [
+          [7, 8],
+          [2, 4]
+        ]
+      },
+      {
+        "Cadillac": [
+          [2, 4],
+          [6, 8]
+        ]
+      },
+      {
+        "Langelier": [
+          [5, 7],
+          [3, 5]
+        ]
+      },
+      {
+        "Radisson": [
+          [2, 4],
+          [6, 8]
+        ]
+      },
+      {
+        "Honoré-Beaugrand": [4, null]
+      }
+    ],
+    "couleur": "verte",
+    "contraste": true,
+    "hex": ["#008E4F", "#C8C2CC"],
+    "rame": "azur",
+    "voitures": 9,
+    "mauvaisSens": [
+      ["De L'Église", "Charlevoix", "Lionel-Groulx"],
+      ["De L'Église"]
+    ],
+    "ascenseur": [
+      {
+        "Angrignon": [null, 6]
+      },
+      {
+        "Jolicoeur": [5, 5]
+      },
+      {
+        "Lionel-Groulx": [6, 5]
+      },
+      {
+        "Atwater": [2, 8]
+      },
+      {
+        "McGill": [9, 1]
+      },
+      {
+        "Place-des-Arts": [3, 7]
+      },
+      {
+        "Berri-UQAM": [4, 3]
+      },
+      {
+        "Préfontaine": [7, 3]
+      },
+      {
+        "Pie-IX": [6, 4]
+      },
+      {
+        "Viau": [1, 9]
+      },
+      {
+        "Honoré-Beaugrand": [3, null]
+      }
+    ]
+  },
+  {
+    "sigle": "2",
+    "ligne": "2 – orange",
+    "terminus": ["Côte-Vertu", "Montmorency"],
+    "stations": [
+      {
+        "Côte-Vertu": [null, 4]
+      },
+      {
+        "Du Collège": [
+          [
+            {
+              "sortie": "Cartier",
+              "voiture": 1
+            },
+            {
+              "sortie": "du Collège",
+              "voiture": 9
+            }
+          ],
+          [
+            {
+              "sortie": "du Collège",
+              "voiture": 1
+            },
+            {
+              "sortie": "Cartier",
+              "voiture": 9
+            }
+          ]
+        ]
+      },
+      {
+        "De La Savane": [9, 1]
+      },
+      {
+        "Namur": [9, 1]
+      },
+      {
+        "Plamondon": [
+          [
+            {
+              "sortie": "Van Horne",
+              "voiture": 1
+            },
+            {
+              "sortie": "Plamondon",
+              "voiture": 9
+            }
+          ],
+          [
+            {
+              "sortie": "Plamondon",
+              "voiture": 1
+            },
+            {
+              "sortie": "Van Horne",
+              "voiture": 9
+            }
+          ]
+        ]
+      },
+      {
+        "Côte-Sainte-Catherine": [
+          [5, 6],
+          [4, 5]
+        ]
+      },
+      {
+        "Snowdon": [2, 8]
+      },
+      {
+        "Villa-Maria": [1, 9]
+      },
+      {
+        "Vendôme": [
+          [4, 6],
+          [4, 6]
+        ]
+      },
+      {
+        "Place-Saint-Henri": [6, 4]
+      },
+      {
+        "Lionel-Groulx": [
+          [2, 4],
+          [7, 8]
+        ]
+      },
+      {
+        "Georges-Vanier": [
+          [6, 7],
+          [3, 4]
+        ]
+      },
+      {
+        "Lucien-L'Allier": [1, 9]
+      },
+      {
+        "Bonaventure": [
+          [3, 6],
+          [3, 7]
+        ]
+      },
+      {
+        "Square-Victoria–OACI": [
+          [6, 9],
+          [1, 4]
+        ]
+      },
+      {
+        "Place-d'Armes": [
+          [5, 6, 7],
+          [2, 3, 4, 5]
+        ]
+      },
+      {
+        "Champ-de-Mars": [6, 4]
+      },
+      {
+        "Berri-UQAM": [[6, 8], 3]
+      },
+      {
+        "Sherbrooke": [6, 4]
+      },
+      {
+        "Mont-Royal": [
+          [3, 4],
+          [6, 7]
+        ]
+      },
+      {
+        "Laurier": [
+          [
+            {
+              "sortie": "Laurier",
+              "voiture": 1
+            },
+            {
+              "sortie": "St-Joseph",
+              "voiture": 9
+            }
+          ],
+          [
+            {
+              "sortie": "St-Joseph",
+              "voiture": 1
+            },
+            {
+              "sortie": "Laurier",
+              "voiture": 9
+            }
+          ]
+        ]
+      },
+      {
+        "Rosemont": [
+          [6, 8],
+          [2, 4]
+        ]
+      },
+      {
+        "Beaubien": [
+          [5, 6, 7],
+          [3, 4, 5]
+        ]
+      },
+      {
+        "Jean-Talon": [4, 4]
+      },
+      {
+        "Jarry": [1, 9]
+      },
+      {
+        "Crémazie": [
+          [5, 6],
+          [4, 5]
+        ]
+      },
+      {
+        "Sauvé": [
+          [4, 6],
+          [4, 6]
+        ]
+      },
+      {
+        "Henri-Bourassa": [3, 6]
+      },
+      {
+        "Cartier": [
+          [2, 4],
+          [6, 8]
+        ]
+      },
+      {
+        "De La Concorde": [7, 3]
+      },
+      {
+        "Montmorency": [6, null]
+      }
+    ],
+    "couleur": "orange",
+    "contraste": false,
+    "hex": ["#EF8122", "#C8C2CC"],
+    "rame": "azur",
+    "voitures": 9,
+    "mauvaisSens": [["Lionel-Groulx", "Henri-Bourassa"], ["Snowdon"]],
+    "ascenseur": [
+      {
+        "Côte-Vertu": [null, 4]
+      },
+      {
+        "Du Collège": [1, 9]
+      },
+      {
+        "Snowdon": [2, 8]
+      },
+      {
+        "Vendôme": [4, 6]
+      },
+      {
+        "Lionel-Groulx": [3, 5]
+      },
+      {
+        "Bonaventure": [6, 4]
+      },
+      {
+        "Place-d'Armes": [7, 3]
+      },
+      {
+        "Champ-de-Mars": [4, 6]
+      },
+      {
+        "Berri-UQAM": [7, 3]
+      },
+      {
+        "Mont-Royal": [1, 9]
+      },
+      {
+        "Rosemont": [7, 3]
+      },
+      {
+        "Jean-Talon": [9, 1]
+      },
+      {
+        "Henri-Bourassa": [3, 6]
+      },
+      {
+        "Cartier": [2, 8]
+      },
+      {
+        "De La Concorde": [7, 3]
+      },
+      {
+        "Montmorency": [6, null]
+      }
+    ]
+  },
+  {
+    "sigle": "4",
+    "ligne": "4 – jaune",
+    "terminus": ["Berri-UQAM", "Longueuil–UDS"],
+    "stations": [
+      {
+        "Berri-UQAM": [null, [2, 5]]
+      },
+      {
+        "Parc-Jean-Drapeau": [
+          [2, 5],
+          [2, 5]
+        ]
+      },
+      {
+        "Longueuil–Université-de-Sherbrooke": [[3, 4], null]
+      }
+    ],
+    "couleur": "jaune",
+    "contraste": false,
+    "hex": ["#FFE300", "#7EA4BB"],
+    "rame": "mr73",
+    "voitures": 9,
+    "mauvaisSens": [[], []],
+    "ascenseur": [
+      {
+        "Parc-Jean-Drapeau": [5, 5]
+      }
+    ]
+  },
+  {
+    "sigle": "5",
+    "ligne": "5 – bleue",
+    "terminus": ["Snowdon", "St-Michel"],
+    "stations": [
+      {
+        "Snowdon": [null, 1]
+      },
+      {
+        "Côte-des-Neiges": [2, 5]
+      },
+      {
+        "Université de Montréal": [3, 4]
+      },
+      {
+        "Édouard-Montpetit": [
+          [3, 4],
+          [3, 4]
+        ]
+      },
+      {
+        "Outremont": [1, 6]
+      },
+      {
+        "Acadie": [4, 3]
+      },
+      {
+        "Parc": [3, 4]
+      },
+      {
+        "De Castelnau": [2, 2]
+      },
+      {
+        "Jean-Talon": [
+          [
+            {
+              "sortie": "St-Hubert",
+              "voiture": 1
+            },
+            {
+              "sortie": "Jean-Talon",
+              "voiture": 6
+            }
+          ],
+          [
+            {
+              "sortie": "Jean-Talon",
+              "voiture": 1
+            },
+            {
+              "sortie": "St-Hubert",
+              "voiture": 4
+            }
+          ]
+        ]
+      },
+      {
+        "Fabre": [
+          [
+            {
+              "sortie": "Papineau",
+              "voiture": 1
+            },
+            {
+              "sortie": "Fabre",
+              "voiture": 6
+            }
+          ],
+          [
+            {
+              "sortie": "Fabre",
+              "voiture": 1
+            },
+            {
+              "sortie": "Papineau",
+              "voiture": 6
+            }
+          ]
+        ]
+      },
+      {
+        "D'Iberville": [
+          [
+            {
+              "sortie": "D'Iberville",
+              "voiture": 1
+            },
+            {
+              "sortie": "Louis-Hébert",
+              "voiture": 6
+            }
+          ],
+          [
+            {
+              "sortie": "Louis-Hébert",
+              "voiture": 1
+            },
+            {
+              "sortie": "D'Iberville",
+              "voiture": 6
+            }
+          ]
+        ]
+      },
+      {
+        "St-Michel": [[2, 3], null]
+      }
+    ],
+    "couleur": "bleue",
+    "contraste": true,
+    "hex": ["#0083C9", "#7EA4BB"],
+    "rame": "mr73",
+    "voitures": 6,
+    "mauvaisSens": [[], ["Jean-Talon"]],
+    "ascenseur": [
+      {
+        "Snowdon": [null, 1]
+      },
+      {
+        "Édouard-Montpetit": [4, 6]
+      },
+      {
+        "Outremont": [1, 6]
+      },
+      {
+        "Jean-Talon": [6, 1]
+      },
+      {
+        "D'Iberville": [1, 6]
+      }
+    ]
+  },
+  {
+    "sigle": "A1-A3",
+    "ligne": "A1-A3 – Brossard–Anse-à-l'Orme",
+    "terminus": ["A3 Anse-à-l'Orme", "A1 Brossard"],
+    "stations": [
+      {
+        "Anse-à-l'Orme": [null, 1]
+      },
+      {
+        "Kirkland": [
+          [2, 4],
+          [1, 3]
+        ]
+      },
+      {
+        "Fairview–Pointe-Claire": [2, 2]
+      },
+      {
+        "Des Sources": [2, 2]
+      },
+      {
+        "Bois-Franc": [4, 4]
+      },
+      {
+        "Du Ruisseau": [4, 4]
+      },
+      {
+        "Montpellier": [2, 4]
+      },
+      {
+        "Côte-de-Liesse": [1, 4]
+      },
+      {
+        "Ville-de-Mont-Royal": [1, 4]
+      },
+      {
+        "Canora": [1, 4]
+      },
+      {
+        "Édouard-Montpetit": [3, 2]
+      },
+      {
+        "McGill": [
+          [
+            {
+              "sortie": "Centre Eaton",
+              "voiture": 1
+            },
+            {
+              "sortie": "Métro McGill",
+              "voiture": 4
+            }
+          ],
+          [
+            {
+              "sortie": "Métro McGill",
+              "voiture": 1
+            },
+            {
+              "sortie": "Centre Eaton",
+              "voiture": 4
+            }
+          ]
+        ]
+      },
+      {
+        "Gare Centrale": [
+          [
+            {
+              "sortie": "Place Bonaventure",
+              "voiture": 1
+            },
+            {
+              "sortie": "Gare Centrale",
+              "voiture": 4
+            }
+          ],
+          [
+            {
+              "sortie": "Gare Centrale",
+              "voiture": 1
+            },
+            {
+              "sortie": "Place Bonaventure",
+              "voiture": 4
+            }
+          ]
+        ]
+      },
+      {
+        "Ile-des-Soeurs": [
+          [2, 3],
+          [2, 3]
+        ]
+      },
+      {
+        "Panama": [
+          [1, 2],
+          [3, 4]
+        ]
+      },
+      {
+        "Du Quartier": [1, [2, 4]]
+      },
+      {
+        "Brossard": [1, null]
+      }
+    ],
+    "couleur": "lime",
+    "contraste": false,
+    "hex": ["#85BE00", "#85BE00"],
+    "rame": "rem",
+    "voitures": 4,
+    "mauvaisSens": [
+      ["Anse-à-l'Orme", "Gare Centrale", "Panama", "Du Quartier"],
+      ["Du Quartier", "Panama", "Gare Centrale", "Anse-à-l'Orme"]
+    ],
+    "ascenseur": [
+      {
+        "Anse-à-l'Orme": [null, 1]
+      },
+      {
+        "Kirkland": [4, 1]
+      },
+      {
+        "Fairview–Pointe-Claire": [2, 2]
+      },
+      {
+        "Des Sources": [2, 2]
+      },
+      {
+        "Bois-Franc": [2, 2]
+      },
+      {
+        "Du Ruisseau": [2, 2]
+      },
+      {
+        "Montpellier": [2, 3]
+      },
+      {
+        "Côte-de-Liesse": [1, 4]
+      },
+      {
+        "Ville-de-Mont-Royal": [1, 4]
+      },
+      {
+        "Canora": [1, 4]
+      },
+      {
+        "Édouard-Montpetit": [1, 4]
+      },
+      {
+        "McGill": [4, 4]
+      },
+      {
+        "Gare Centrale": [4, 1]
+      },
+      {
+        "Ile-des-Soeurs": [1, 4]
+      },
+      {
+        "Panama": [[1, 2], 4]
+      },
+      {
+        "Du Quartier": [1, 4]
+      },
+      {
+        "Brossard": [1, null]
+      }
+    ]
+  },
+  {
+    "sigle": "A1-A4",
+    "ligne": "A1-A4 – Brossard–Deux-Montagnes",
+    "terminus": ["A4 Deux-Montagnes", "A1 Brossard"],
+    "stations": [
+      {
+        "Deux-Montagnes": [null, 1]
+      },
+      {
+        "Grand-Moulin": [1, 4]
+      },
+      {
+        "Sainte-Dorothée": [1, 4]
+      },
+      {
+        "Ile-Bigras": [4, 1]
+      },
+      {
+        "Pierrefonds-Roxboro": [2, 3]
+      },
+      {
+        "Sunnybrooke": [2, 3]
+      },
+      {
+        "Bois-Franc": [4, 4]
+      },
+      {
+        "Du Ruisseau": [4, 4]
+      },
+      {
+        "Montpellier": [2, 4]
+      },
+      {
+        "Côte-de-Liesse": [1, 4]
+      },
+      {
+        "Ville-de-Mont-Royal": [1, 4]
+      },
+      {
+        "Canora": [1, 4]
+      },
+      {
+        "Édouard-Montpetit": [3, 2]
+      },
+      {
+        "McGill": [
+          [
+            {
+              "sortie": "Centre Eaton",
+              "voiture": 1
+            },
+            {
+              "sortie": "Métro McGill",
+              "voiture": 4
+            }
+          ],
+          [
+            {
+              "sortie": "Métro McGill",
+              "voiture": 1
+            },
+            {
+              "sortie": "Centre Eaton",
+              "voiture": 4
+            }
+          ]
+        ]
+      },
+      {
+        "Gare Centrale": [
+          [
+            {
+              "sortie": "Place Bonaventure",
+              "voiture": 1
+            },
+            {
+              "sortie": "Gare Centrale",
+              "voiture": 4
+            }
+          ],
+          [
+            {
+              "sortie": "Gare Centrale",
+              "voiture": 1
+            },
+            {
+              "sortie": "Place Bonaventure",
+              "voiture": 4
+            }
+          ]
+        ]
+      },
+      {
+        "Ile-des-Soeurs": [
+          [2, 3],
+          [2, 3]
+        ]
+      },
+      {
+        "Panama": [
+          [1, 2],
+          [3, 4]
+        ]
+      },
+      {
+        "Du Quartier": [1, [2, 4]]
+      },
+      {
+        "Brossard": [1, null]
+      }
+    ],
+    "couleur": "lime",
+    "contraste": false,
+    "hex": ["#85BE00", "#85BE00"],
+    "rame": "rem",
+    "voitures": 4,
+    "mauvaisSens": [
+      ["Ile-Bigras", "Gare Centrale", "Panama", "Du Quartier"],
+      ["Du Quartier", "Panama", "Gare Centrale", "Ile-Bigras"]
+    ],
+    "ascenseur": [
+      {
+        "Deux-Montagnes": [null, [2, 3]]
+      },
+      {
+        "Grand-Moulin": [2, 3]
+      },
+      {
+        "Sainte-Dorothée": [1, 3]
+      },
+      {
+        "Ile-Bigras": [4, 1]
+      },
+      {
+        "Pierrefonds-Roxboro": [3, 2]
+      },
+      {
+        "Sunnybrooke": [3, 2]
+      },
+      {
+        "Bois-Franc": [2, 2]
+      },
+      {
+        "Du Ruisseau": [2, 2]
+      },
+      {
+        "Montpellier": [2, 3]
+      },
+      {
+        "Côte-de-Liesse": [1, 4]
+      },
+      {
+        "Ville-de-Mont-Royal": [1, 4]
+      },
+      {
+        "Canora": [1, 4]
+      },
+      {
+        "Édouard-Montpetit": [1, 4]
+      },
+      {
+        "McGill": [4, 4]
+      },
+      {
+        "Gare Centrale": [4, 1]
+      },
+      {
+        "Ile-des-Soeurs": [1, 4]
+      },
+      {
+        "Panama": [[1, 2], 4]
+      },
+      {
+        "Du Quartier": [1, 4]
+      },
+      {
+        "Brossard": [1, null]
+      }
+    ]
+  }
+]
