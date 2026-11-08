@@ -7,8 +7,19 @@ const app = express();
 
 app.use(express.json());
 
+const allowedOrigins = [
+  "https://wagonnage.touristechezsoi.ca",
+  "http://localhost:3000"
+];
+
 app.use(cors({
-  origin: "https://wagonnage.touristechezsoi.ca"
+  origin: function (origin, callback) {
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error("Not allowed by CORS"));
+    }
+  }
 }));
 
 // Routes
