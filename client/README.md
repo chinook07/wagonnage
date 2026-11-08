@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# Wagonnage
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Ce projet est un reboot d'un projet laissé 
+ l'abandon depuis 2024.
 
-## Available Scripts
+## Alors quel est ce projet?
 
-In the project directory, you can run:
+D'abord la prémise. Tu te diriges en métro à un rendez-vous à l'autre bout de la ville et tu ne sais pas où t'assoir à bord. Si tu débarques à Viau, est-ce que c'est mieux d'être à l'avant ou à l'arrière du métro? Et pour Georges-Vanier? (Mais qui va à Georges-Vanier?)
 
-### `npm start`
+## Hmm, je te suis...
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Donc voici une application qui te permettra de trouver la meilleure place où t'assoir selon ta destination, en seulement trois étapes!
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Ok, intéressant.
 
-### `npm test`
+Oui. D'abord, tu choisis parmi les 4 lignes de métro ou les 2 lignes, pardon, branches du REM. Ensuite tu choisis ta direction. Finalement, tu indiques ta destination, par exemple, Rosemont, ou Bois-Franc. Ensuite, l'appli te dira dans quelle voiture te placer pour être vis-à-vis la sortie, une fois à destination.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Et s'il y a plusieurs escaliers / escaliers roulants?
 
-### `npm run build`
+Si tu débarques à Papineau, peu importe la direction, tu auras des escaliers vis-à-vis les voitures 4 et 6. Dans ce cas, l'appli te dira tout simplement de choisir la 4e ou la 6e voiture, puisque les deux options te mènent en haut à la même place.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Et dans le cas où il y a plusieurs édicules?
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+À Guy-Concordia, ça fait toute la différence. L'appli te proposera d'être assis (ou debout) dans la voiture 1 pour une sortie, ou dans la voiture 9 pour l'autre.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Et les stations de correspondances?
 
-### `npm run eject`
+J'y travaille dessus. C'est un peu compliqué, car Lionel-Groulx n'a rien à voir avec Jean-Talon.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Et les ascenseurs?
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+C'est possible de voir où débarquer pour être près des ascenseurs.
