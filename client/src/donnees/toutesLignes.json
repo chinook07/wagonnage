@@ -50,7 +50,80 @@
         "Charlevoix": [3, 7]
       },
       {
-        "Lionel-Groulx": [7, 2]
+        "Lionel-Groulx": [
+          [
+            {
+              "sortie": "ligne orange (Montmorency)",
+              "voiture": 1
+            },
+            {
+              "sortie": "ligne orange",
+              "voiture": 2
+            },
+            {
+              "sortie": "ligne orange (Montmorency)",
+              "voiture": 3
+            },
+            {
+              "sortie": "ligne orange",
+              "voiture": 4
+            },
+            {
+              "sortie": "ligne orange",
+              "voiture": 6
+            },
+            {
+              "sortie": "ligne orange (Montmorency)",
+              "voiture": 7
+            },
+            {
+              "sortie": "ligne orange, Atwater",
+              "voiture": 8
+            },
+            {
+              "sortie": "ligne orange (Montmorency)",
+              "voiture": 9
+            }
+          ],
+          [
+            {
+              "sortie": "ligne orange (Côte-Vertu)",
+              "voiture": 1
+            },
+            {
+              "sortie": "ligne orange, Atwater",
+              "voiture": 2
+            },
+            {
+              "sortie": "ligne orange",
+              "voiture": 3
+            },
+            {
+              "sortie": "ligne orange (Côte-Vertu)",
+              "voiture": 4
+            },
+            {
+              "sortie": "ligne orange (Côte-Vertu)",
+              "voiture": 5
+            },
+            {
+              "sortie": "ligne orange (Côte-Vertu)",
+              "voiture": 6
+            },
+            {
+              "sortie": "ligne orange",
+              "voiture": 7
+            },
+            {
+              "sortie": "ligne orange (Côte-Vertu)",
+              "voiture": 8
+            },
+            {
+              "sortie": "ligne orange (Côte-Vertu)",
+              "voiture": 9
+            }
+          ]
+        ]
       },
       {
         "Atwater": [
@@ -90,8 +163,26 @@
       },
       {
         "McGill": [
-          [2, 6],
-          [4, 8]
+          [
+            {
+              "sortie": "Union, Ste-Catherine, de Maisonneuve",
+              "voiture": 2
+            },
+            {
+              "sortie": "REM, Robert-Bourassa, McGill College, Ste-Catherine, de Maisonneuve",
+              "voiture": 6
+            }
+          ],
+          [
+            {
+              "sortie": "REM, Robert-Bourassa, McGill College, Ste-Catherine, de Maisonneuve",
+              "voiture": 4
+            },
+            {
+              "sortie": "Union, Ste-Catherine, de Maisonneuve",
+              "voiture": 8
+            }
+          ]
         ]
       },
       {
@@ -126,8 +217,29 @@
       },
       {
         "Berri-UQAM": [
-          [1, 2, 3, 4, 5],
-          [3, 5, 8]
+          [
+            { "sortie": "ligne orange (Montmorency)", "voiture": 1 },
+            { "sortie": "ligne orange (Montmorency)", "voiture": 2 },
+            { "sortie": "ligne orange (Montmorency)", "voiture": 3 },
+            {
+              "sortie": "ligne orange (Montmorency), sorties extérieures",
+              "voiture": 4
+            },
+            {
+              "sortie": "ligne orange (Côte-Vertu), sorties extérieures",
+              "voiture": 5
+            },
+            { "sortie": "ligne jaune", "voiture": 8 }
+          ],
+          [
+            { "sortie": "ligne jaune", "voiture": 1 },
+            {
+              "sortie": "ligne orange (Côte-Vertu), sorties extérieures",
+              "voiture": 3
+            },
+            { "sortie": "sorties extérieures", "voiture": 5 },
+            { "sortie": "ligne orange (Montmorency)", "voiture": 8 }
+          ]
         ]
       },
       {
@@ -302,7 +414,44 @@
         ]
       },
       {
-        "Snowdon": [2, 8]
+        "Snowdon": [
+          [
+            {
+              "sortie": "ligne bleue, Queen-Mary",
+              "voiture": 2
+            },
+            {
+              "sortie": "ligne bleue",
+              "voiture": 4
+            },
+            {
+              "sortie": "ligne bleue",
+              "voiture": 6
+            },
+            {
+              "sortie": "ligne bleue",
+              "voiture": 8
+            }
+          ],
+          [
+            {
+              "sortie": "ligne bleue",
+              "voiture": 2
+            },
+            {
+              "sortie": "ligne bleue",
+              "voiture": 4
+            },
+            {
+              "sortie": "ligne bleue",
+              "voiture": 6
+            },
+            {
+              "sortie": "ligne bleue, Queen-Mary",
+              "voiture": 8
+            }
+          ]
+        ]
       },
       {
         "Villa-Maria": [1, 9]
@@ -318,8 +467,78 @@
       },
       {
         "Lionel-Groulx": [
-          [2, 4],
-          [7, 8]
+          [
+            {
+              "sortie": "ligne verte (Honoré-Beaugrand)",
+              "voiture": 1
+            },
+            {
+              "sortie": "ligne verte (Honoré-Beaugrand), Atwater",
+              "voiture": 2
+            },
+            {
+              "sortie": "ligne verte (Honoré-Beaugrand)",
+              "voiture": 3
+            },
+            {
+              "sortie": "ligne verte, Atwater",
+              "voiture": 4
+            },
+            {
+              "sortie": "ligne verte",
+              "voiture": 6
+            },
+            {
+              "sortie": "ligne verte (Honoré-Beaugrand)",
+              "voiture": 7
+            },
+            {
+              "sortie": "ligne verte",
+              "voiture": 8
+            },
+            {
+              "sortie": "ligne verte",
+              "voiture": 9
+            }
+          ],
+          [
+            {
+              "sortie": "ligne verte (Angrignon)",
+              "voiture": 1
+            },
+            {
+              "sortie": "ligne verte (Honoré-Beaugrand)",
+              "voiture": 2
+            },
+            {
+              "sortie": "ligne verte",
+              "voiture": 3
+            },
+            {
+              "sortie": "ligne verte (Angrignon)",
+              "voiture": 4
+            },
+            {
+              "sortie": "ligne verte (Angrignon)",
+              "voiture": 5
+            },
+            {
+              "sortie": "ligne verte (Angrignon)",
+              "voiture": 6
+            },
+            {
+              "sortie": "ligne verte (Angrignon), Atwater",
+              "voiture": 7
+            },
+            {
+              "sortie": "ligne verte (Honoré-Beaugrand), Atwater",
+              "voiture": 8
+            },
+            {
+              "sortie": "ligne verte (Angrignon)",
+              "voiture": 9
+            }
+          ]
         ]
       },
       {
@@ -333,7 +552,7 @@
       },
       {
         "Bonaventure": [
-          [3, 6],
+          [3, 7],
           [3, 7]
         ]
       },
@@ -353,7 +572,44 @@
         "Champ-de-Mars": [6, 4]
       },
       {
-        "Berri-UQAM": [[6, 8], 3]
+        "Berri-UQAM": [
+          [
+            {
+              "sortie": "ligne verte (Angrignon)",
+              "voiture": 5
+            },
+            {
+              "sortie": "ligne verte (Angrignon), sorties extérieures",
+              "voiture": 6
+            },
+            {
+              "sortie": "ligne verte (Honoré-Beaugrand)",
+              "voiture": 7
+            },
+            {
+              "sortie": "ligne verte (Honoré-Beaugrand), ligne jaune, sorties extérieures",
+              "voiture": 8
+            },
+            {
+              "sortie": "ligne jaune",
+              "voiture": 9
+            }
+          ],
+          [
+            {
+              "sortie": "ligne jaune",
+              "voiture": 2
+            },
+            {
+              "sortie": "ligne verte, ligne jaune, sorties extérieures",
+              "voiture": 3
+            },
+            {
+              "sortie": "ligne verte (Angrignon)",
+              "voiture": 5
+            }
+          ]
+        ]
       },
       {
         "Sherbrooke": [6, 4]
@@ -401,7 +657,19 @@
         ]
       },
       {
-        "Jean-Talon": [4, 4]
+        "Jean-Talon": [
+          4,
+          [
+            {
+              "sortie": "ligne bleue, sorties extérieures",
+              "voiture": 4
+            },
+            {
+              "sortie": "ligne bleue",
+              "voiture": 7
+            }
+          ]
+        ]
       },
       {
         "Jarry": [1, 9]
@@ -497,7 +765,19 @@
     "terminus": ["Berri-UQAM", "Longueuil–UDS"],
     "stations": [
       {
-        "Berri-UQAM": [null, [2, 5]]
+        "Berri-UQAM": [
+          null,
+          [
+            {
+              "sortie": "ligne verte (Angrignon), ligne orange, sorties extérieures",
+              "voiture": 2
+            },
+            {
+              "sortie": "ligne verte (Honoré-Beaugrand), ligne orange, sorties extérieures",
+              "voiture": 5
+            }
+          ]
+        ]
       },
       {
         "Parc-Jean-Drapeau": [

@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faArrowRightFromBracket,
   faElevator,
-  faCircleArrowRight
+  faCircleArrowRight,
 } from "@fortawesome/free-solid-svg-icons";
 import { Contexte } from "../Contexte";
 
@@ -74,14 +74,10 @@ const Rame = () => {
     (_, index) => nombreVoitures - index,
   );
 
-  
-
   const porteAvecSortie = (num) =>
     portesC6.some((porte) =>
       typeof porte === "number" ? porte === num : porte.voiture === num,
     );
-
-  console.log(porteAvecSortie);
 
   return (
     <Container>
@@ -109,7 +105,27 @@ const Rame = () => {
           </tr>
         </tbody>
       </table>
-      {/* {numerosVoitures} */}
+      {portesC6[0] && portesC6[0].sortie && (
+        <ul>
+          <ul>
+            {Object.entries(
+              portesC6.reduce((groupes, sortie) => {
+                if (!groupes[sortie.sortie]) {
+                  groupes[sortie.sortie] = [];
+                }
+
+                groupes[sortie.sortie].push(sortie.voiture);
+                return groupes;
+              }, {}),
+            ).map(([sortie, voitures]) => (
+              <li key={sortie}>
+                Voiture{voitures.length > 1 ? "s" : ""} {voitures.join(", ")} :{" "}
+                {sortie}
+              </li>
+            ))}
+          </ul>
+        </ul>
+      )}
       {debarqueGaucheC8 && (
         <p>
           {lignesC1.rame === "rem"
@@ -135,6 +151,11 @@ const Container = styled.section`
   }
   tbody tr {
     vertical-align: top;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
   }
   p {
     text-align: center;
