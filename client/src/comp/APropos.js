@@ -14,6 +14,12 @@ const APropos = () => {
 };
 
 const Container = styled.section`
+  background-color: var(--c1);
+  padding: 15px;
+  margin: 0;
+  h2 {
+    margin-top: 0;
+  }
   p {
     margin: auto 0;
   }

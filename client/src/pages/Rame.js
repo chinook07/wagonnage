@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faArrowRightFromBracket,
   faElevator,
+  faCircleArrowRight
 } from "@fortawesome/free-solid-svg-icons";
 import { Contexte } from "../Contexte";
 
@@ -58,7 +59,10 @@ const Rame = () => {
 
   if (sortiesC5 === undefined || portesC6 === undefined) {
     return dirChoisiC3 !== undefined ? (
-      <p>Choisissez votre station de destination.</p>
+      <p>
+        <FontAwesomeIcon icon={faCircleArrowRight} />
+        <span> Choisissez votre destination.</span>
+      </p>
     ) : null;
   }
 
@@ -70,10 +74,14 @@ const Rame = () => {
     (_, index) => nombreVoitures - index,
   );
 
+  
+
   const porteAvecSortie = (num) =>
     portesC6.some((porte) =>
       typeof porte === "number" ? porte === num : porte.voiture === num,
     );
+
+  console.log(porteAvecSortie);
 
   return (
     <Container>
@@ -101,6 +109,7 @@ const Rame = () => {
           </tr>
         </tbody>
       </table>
+      {/* {numerosVoitures} */}
       {debarqueGaucheC8 && (
         <p>
           {lignesC1.rame === "rem"

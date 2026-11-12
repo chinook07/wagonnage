@@ -4,6 +4,7 @@ import {
   faCircle,
   faWheelchair,
   faAnglesDown,
+  faCircleArrowRight,
 } from "@fortawesome/free-solid-svg-icons";
 import styled from "styled-components";
 import { Contexte } from "../Contexte";
@@ -32,7 +33,12 @@ const ListeStations = () => {
   const possedeAscenseur = (arret) =>
     lignesC1.ascenseur.some((element) => Object.hasOwn(element, arret));
   if (stationsC4 === undefined) {
-    return lignesC1 ? <p>Choisissez votre direction.</p> : null;
+    return lignesC1 ? (
+      <p>
+        <FontAwesomeIcon icon={faCircleArrowRight} />
+        <span> Choisissez votre direction.</span>
+      </p>
+    ) : null;
   }
   const stationsOrdonnees =
     dirChoisiC3 === 1 ? stationsC4 : [...stationsC4].reverse();
@@ -52,17 +58,24 @@ const ListeStations = () => {
           <FontAwesomeIcon icon={faAnglesDown} />
         </NomStation>
       </button>
-      {stationsOrdonnees.slice(1).map((arret) => (
-        <button key={arret} onClick={() => choisirStation(arret)}>
+      {stationsOrdonnees.slice(1).map((arret, index) => (
+        <button key={index} onClick={() => choisirStation(arret)}>
           <Ruban $couleur={lignesC1.hex[0]}>
             <CercleStation
               icon={faCircle}
               $couleur={sortiesC5 === arret && "var(--c0)"}
             />
           </Ruban>
-          <NomStation>
+          <NomStation
+            $poids={
+              index === stationsOrdonnees.slice(1).length - 1
+                ? "bold"
+                : "normal"
+            }
+          >
             <span>{arret}</span>
             {possedeAscenseur(arret) && <FontAwesomeIcon icon={faWheelchair} />}
+            {/* {index === stationsOrdonnees.slice(1).length - 1 && <span> : terminus</span>} */}
           </NomStation>
         </button>
       ))}
@@ -110,6 +123,7 @@ const CercleStation = styled(FontAwesomeIcon)`
 
 const NomStation = styled.div`
   color: var(--c2);
+  font-weight: ${({ $poids }) => $poids};
   padding: 10px;
   svg {
     margin-left: 5px;

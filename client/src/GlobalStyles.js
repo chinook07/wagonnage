@@ -7,7 +7,7 @@ export default createGlobalStyle`
     body {
         background-color: #1C092B;
         color: #fff;
-        font-family: fantasy;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         margin: 0;
     }
     :root {

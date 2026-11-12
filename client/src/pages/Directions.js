@@ -1,6 +1,9 @@
 import { useContext, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCircle } from "@fortawesome/free-solid-svg-icons";
+import {
+  faCircle,
+  faCircleArrowRight,
+} from "@fortawesome/free-solid-svg-icons";
 import styled from "styled-components";
 import { Contexte } from "../Contexte";
 import toutesLignes from "../donnees/toutesLignes";
@@ -10,6 +13,7 @@ const Directions = () => {
     lignesC1,
     directionsC2,
     setDirections,
+    dirChoisiC3,
     setDirChoisi,
     setSorties,
     setPortes,
@@ -38,7 +42,13 @@ const Directions = () => {
       <Container>
         <p>Direction</p>
         {directionsC2.map((term, index) => (
-          <button key={index} onClick={() => choisirLaDir(index)}>
+          <BoutonDir
+            key={index}
+            onClick={() => choisirLaDir(index)}
+            $opaque={
+              dirChoisiC3 === undefined || index === dirChoisiC3 ? 1 : 0.5
+            }
+          >
             {index === 0 && (
               <CercleColore couleur={lignesC1.hex[0]} icon={faCircle} />
             )}
@@ -46,12 +56,17 @@ const Directions = () => {
             {index === 1 && (
               <CercleColore couleur={lignesC1.hex[0]} icon={faCircle} />
             )}
-          </button>
+          </BoutonDir>
         ))}
       </Container>
     );
   } else {
-    return <p>Choisissez votre ligne de transport.</p>;
+    return (
+      <p>
+        <FontAwesomeIcon icon={faCircleArrowRight} />
+        <span> Choisissez votre ligne de transport.</span>
+      </p>
+    );
   }
 };
 
@@ -62,22 +77,24 @@ const Container = styled.section`
   p {
     order: 1;
   }
-  button {
-    background-color: var(--c1);
-    border: 1px solid var(--c2);
-    color: var(--c2);
-    &:first-of-type svg {
-      margin-right: 5px;
+`;
+
+const BoutonDir = styled.button`
+  background-color: var(--c1);
+  border: 1px solid var(--c2);
+  color: var(--c2);
+  opacity: ${({ $opaque }) => $opaque};
+  &:first-of-type svg {
+    margin-right: 5px;
+  }
+  &:last-of-type {
+    order: 2;
+    svg {
+      margin-left: 5px;
     }
-    &:last-of-type {
-      order: 2;
-      svg {
-        margin-left: 5px;
-      }
-    }
-    &:hover {
-      opacity: 0.8;
-    }
+  }
+  &:hover {
+    opacity: 0.8;
   }
 `;
 

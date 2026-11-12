@@ -6,6 +6,7 @@ import toutesLignes from "../donnees/toutesLignes";
 const LigneChoisie = () => {
   const {
     setLignes,
+    lignesC1,
     setDirChoisi,
     setStations,
     setSorties,
@@ -34,16 +35,13 @@ const LigneChoisie = () => {
             key={index}
             $limite={estRem}
             onClick={() => choisirLigne(ligne)}
-            $texte={
-              ligne.sigle === "4" || estRem
-                ? "var(--c1)"
-                : "var(--c2)"
-            }
+            $opaque={!lignesC1 || ligne.sigle === lignesC1.sigle ? 1 : 0.5}
+            $texte={ligne.sigle === "4" || estRem ? "var(--c1)" : "var(--c2)"}
           >
             {ligne.sigle}
           </BoutonLigne>
-        )
-    })}
+        );
+      })}
     </Container>
   );
 };
@@ -74,8 +72,9 @@ const Container = styled.section`
 
 const BoutonLigne = styled.button`
   background-color: ${({ $couleur }) => $couleur};
-  border: ${({ $limite }) => $limite ? "2px solid var(--ub)" : "none"};
+  border: ${({ $limite }) => ($limite ? "2px solid var(--ub)" : "none")};
   color: ${({ $texte }) => $texte};
+  opacity: ${({ $opaque }) => $opaque};
 `;
 
 export default LigneChoisie;
