@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import styled from "styled-components";
 import toutesLignes from '../donnees/toutesLignes';
-import { Contexte } from "../Contexte";
+import { Contexte } from "./src/Contexte";
 
 const Lignes = () => {
   const { setLignes } = useContext(Contexte);

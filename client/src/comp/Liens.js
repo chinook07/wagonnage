@@ -8,7 +8,7 @@ const Liens = () => {
       <ul>
         <li>
           <ExternalLink href="https://onroule.org/ressources/metro-rem/">
-            Schéma des stations de métro, avec le nombre de marches
+            Schémas d'accessibilité des stations de métro
           </ExternalLink>
         </li>
         <li>
@@ -25,6 +25,9 @@ const Liens = () => {
           <ExternalLink href="http://stations.albertguillaumes.cat/">
             Schémas 3D des stations de métro (ANG)
           </ExternalLink>
+        </li>
+        <li>
+          <ExternalLink href="https://umap.openstreetmap.fr/fr/map/transport-intermodal-train-et-autobus-velo_570264">Carte du transport intermodal avec un vélo</ExternalLink>
         </li>
       </ul>
     </Container>
